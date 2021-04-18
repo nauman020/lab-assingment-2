@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/fragment1_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Fragment1"
+            android:layout_toLeftOf="@+id/fragment2_tv"
+            android:layout_marginRight="20dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/fragment2_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Fragment2"
+            android:layout_centerHorizontal="true"></TextView>
+
+        <TextView
+            android:id="@+id/fragment3_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Fragment3"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/fragment2_tv"
+            android:textColor="@color/blue"></TextView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fragment3_email_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/fragment3_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:text="TextView"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
